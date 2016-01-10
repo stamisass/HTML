@@ -1,0 +1,127 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+
+<script src="jquery-1.10.2.min.js"></script>
+<script language="JavaScript" src="tafrit.js"></script>
+<script>
+$(document).ready(function(){
+    $("#sidebar1").show();
+  });
+
+</script>
+
+<title> בית ג'ן </title>
+<META charset="utf-8">
+</head> 
+<style>
+ .current { ;background-repeat:no-repeat   }
+
+#navlist {list-style: none; }
+#navlist > li > a {display : block ;  ; padding : 5px ;text-decoration: none; }
+#navlist > li > a:hover {border-color: #aaab9c #fff #fff #ccc; } 
+#navlist > li{position : relative; float : left ; }
+#navlist  ul.submenu {position : absolute;top : 31px ; right : 0px ; display  : none }
+#navlist  ul.submenu li {  list-style : none;  width :95px ; padding : 5px ; text-decoration : none ; background: rgb(233, 241, 245) ; box-shadow: 0px 0px 9px rgb(85, 85, 85);opacity:0.8 }
+#navlist li:hover .submenu {  display : block     }
+
+
+
+
+
+#content {border-width:0px 0px 0px 495px;border-color: #B88427;;border-style: solid ;}
+#naavlist2 {list-style: none; }
+#naavlist2 li a {display : block ;  padding : 5px ; border-width: 1px;border-color: teal;; border-style: solid ; text-decoration : none ; background: #EBFF3E }
+#naavlist2 li a:hover {border-color: #aaab9c #fff #fff #ccc; } 
+
+</style>
+<body style=";background-image: url(background1.jpg);background-attachment:fixed;background-position:center ;background-repeat:no-repeat ; font-family : arial ;" onLoad="mark()" >
+
+<div id=wrapper style="max-width : 1024px ;margin : auto;position : relative ">
+	<div id=koteret style=";;height : 95px ;; " >
+
+		<h1 style="; font-size : 150%  ;padding-top : 10px; "> <a href="index.html"  STYLE="position:absolute; LEFT:550px "><img STYLE="position:relative; "src="beit.png" alt="בית ג'ן"></a></h1>
+		<script>document.write(submenu1) </script>
+
+		
+	</div>
+	<div id=content style="float : right ; width : 529px ;box-shadow: 0px 0px 9px rgb(85, 85, 85);;margin-left:-200px;">
+	
+	
+	
+	
+	<ul id="exampleSlider" style="position:absolute;left:-39px;list-style: none;top: 170px;">
+	<li><img src="gallery/road1.jpg" alt="סמטאות" title="סמטאות" style="width:493px;height:420px"/></li>
+	<li><img src="gallery/sold1.jpg" alt="בית קברות צבאי" title="בית קברות צבאי" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/snow9.jpeg" alt="שלג" title="שלג" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/pic10.jpg" alt="בית ישן" title="בית ישן" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/snow6.jpeg" alt="שלג" title="שלג" style="width:493px;height:420px" /></li>
+    <li><img src="gallery/tree4.jpeg" alt="עץ" title="עץ" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/cave1.jpg" alt="מרתף ישן" title="מרתף ישן" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/snow8.jpeg" alt="שלג" title="שלג" style="width:493px;height:420px"/></li>
+    <li><img src="gallery/pic1.jpeg" alt="מקום קדוש" title="מקום קדוש" style="width:493px;height:420px"/></li>
+</ul>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+$(function () {
+
+    /* SET PARAMETERS */
+    var change_img_time     = 5000; 
+    var transition_speed    = 100;
+
+    var simple_slideshow    = $("#exampleSlider"),
+        listItems           = simple_slideshow.children('li'),
+        listLen             = listItems.length,
+        i                   = 0,
+
+        changeList = function () {
+
+            listItems.eq(i).fadeOut(transition_speed, function () {
+                i += 1;
+                if (i === listLen) {
+                    i = 0;
+                }
+                listItems.eq(i).fadeIn(transition_speed);
+            });
+
+        };
+
+    listItems.not(':first').hide();
+    setInterval(changeList, change_img_time);
+
+});
+
+</script>
+	
+	
+	
+	
+	
+	
+	
+	<p style= "padding : 15px;direction:rtl; font-size: large;color: saddlebrown; ">על בית ג'ן</p>
+		<p style= "padding : 20px;width : 500px;direction: rtl;font-size: large;" >בית ג'אן הוא הכפר הגבוה בארץ ומהגדולים בכפרי הדרוזים.
+הוקם על פסגת ההר ונמצא בלב שמורת הטבע הר מירון בגליל העליון.
+חלקם של הבתים בכפר בנויים בגובה 1020-1030 מ' על הר צפריר והר הארי כך שבחורף הכל מתכסה במעטה שלג צחור .
+הכפר מונה כ  11100 תושבים שכלל  האוכלוסייה הינם מהעדה הדרוזית ,בעבר רוב התושבים היו שומרי מסורת ועיקר התעסוקה הייתה בחקלאות , תעשיות שמן,גידול גפנים ופלחה בחיטה ,על אלה מעידים עשרות הגתות סביב הכפר ,בתי הבד ואבני הרחיים שנמצאות כמעט בכל בית עתיק. 
+</p>
+<p style= "padding : 15px;direction:rtl; font-size: large;color: saddlebrown; ">על עצמי ועל האתר</p>
+		<p style= "padding : 20px;width : 500px;direction: rtl;font-size: large;" >אני תמיר אבו סלאח בן 24 מבית ג'ן, סטודנט להנדסת תוכנה בבית הספר להנדסה ועיצוב שנקר.<br>
+		בניתי את האתר הזה במסגרת קורס פיתוח אתרי אינטרנט, באתר תוכלו לקרוא קצת על הרקע וההיסטוריה של בית ג'ן וכן גם קצת על התיירות בכפר,
+בין אם זה בתי אירוח ומסעדות או טיולים ואטרקציות.
+<br>
+אשמח מאוד לקבל ביקורות גם טכניות וגם על התוכן, תוכלו לצור איתי קשר בלחיצה על "צור קשר" פה באתר.<br>
+תודה.</p>
+	</div>
+		<script>document.write(bar) </script>
+	
+
+	<div id=footer style=";left:163px;opacity:0.95;float:left;width : 1024px;box-shadow: 0px 0px 9px rgb(85, 85, 85);background-image: url(footer.png);" >
+		<h1 style="text-align : center ; font-size : 150% ; padding-top : 10px;"></h1>
+	</div>
+	</div>
+	 <div style="clear : both"> </div>
+</body>
+</html>
+
+
